@@ -10,7 +10,7 @@ The pipeline automatically fetches live news articles from the News API, perform
 
 # 🚀 Architecture Diagram
 
-![Architecture](architecture.png)
+![Architecture](architecture.jpeg)
 
 ---
 
