@@ -1,35 +1,122 @@
-# Python cache
+# =========================================================
+# PYTHON CACHE FILES
+# =========================================================
+
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Environment files
+
+# =========================================================
+# ENVIRONMENT FILES
+# =========================================================
+
 .env
 venv/
+env/
+.venv/
 
-# Lambda zip
-lambda.zip
+
+# =========================================================
+# ZIP / BUILD FILES
+# =========================================================
+
 *.zip
+lambda.zip
+build/
+dist/
 
-# Installed packages
+
+# =========================================================
+# IDE / EDITOR FILES
+# =========================================================
+
+.vscode/
+.idea/
+
+
+# =========================================================
+# OS FILES
+# =========================================================
+
+.DS_Store
+Thumbs.db
+
+
+# =========================================================
+# PYTHON DEPENDENCIES (GLOBAL INSTALLS)
+# =========================================================
+
 *.dist-info/
+*.egg-info/
 
 boto3/
 botocore/
+s3transfer/
 requests/
 urllib3/
 sqlalchemy/
 greenlet/
 pg8000/
-s3transfer/
 charset_normalizer/
 certifi/
 dateutil/
 idna/
 asn1crypto/
 scramp/
+jmespath/
+six.py
+typing_extensions.py
 
-# VS Code
-.vscode/
 
-# OS files
-.DS_Store
+# =========================================================
+# LAMBDA PROJECT DEPENDENCIES (IMPORTANT)
+# =========================================================
+
+LAMBDA_PROJECT/bin/
+LAMBDA_PROJECT/include/
+LAMBDA_PROJECT/lib/
+LAMBDA_PROJECT/__pycache__/
+
+LAMBDA_PROJECT/boto3/
+LAMBDA_PROJECT/botocore/
+LAMBDA_PROJECT/s3transfer/
+LAMBDA_PROJECT/requests/
+LAMBDA_PROJECT/urllib3/
+LAMBDA_PROJECT/sqlalchemy/
+LAMBDA_PROJECT/greenlet/
+LAMBDA_PROJECT/pg8000/
+LAMBDA_PROJECT/charset_normalizer/
+LAMBDA_PROJECT/certifi/
+LAMBDA_PROJECT/dateutil/
+LAMBDA_PROJECT/idna/
+LAMBDA_PROJECT/asn1crypto/
+LAMBDA_PROJECT/scramp/
+LAMBDA_PROJECT/jmespath/
+
+LAMBDA_PROJECT/six.py
+LAMBDA_PROJECT/typing_extensions.py
+
+
+# =========================================================
+# DATA / DATABASE FILES
+# =========================================================
+
+data/
+db/
+*.db
+
+
+# =========================================================
+# STREAMLIT
+# =========================================================
+
+.streamlit/
+
+
+# =========================================================
+# LOG FILES
+# =========================================================
+
+*.log
